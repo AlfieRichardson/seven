@@ -22,8 +22,8 @@ public abstract class PrideBannerMixin {
             PlayerInventory pInv = player.getInventory();
             ItemStack emptyGem = new ItemStack(RegisterItems.EMPTY_GEMSTONE);
             if (pInv.contains(emptyGem)) {
-                ItemStack envyGem = new ItemStack(RegisterItems.ENVY_GEMSTONE);
-                player.giveItemStack(envyGem);
+                ItemStack prideGem = new ItemStack(RegisterItems.PRIDE_GEMSTONE);
+                player.giveItemStack(prideGem);
                 pInv.removeStack(pInv.getSlotWithStack(emptyGem), 1);
             }
         }
