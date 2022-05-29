@@ -9,6 +9,7 @@
     "ArmorItemMixin",
     "EnvyBellMixin",
     "GluttonyCakeMixin",
+    "GreedGoldMixin",
     "LustBreedingMixin"
   ],
   "injectors": {
