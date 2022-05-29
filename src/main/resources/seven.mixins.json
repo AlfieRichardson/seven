@@ -12,6 +12,7 @@
     "GluttonyCakeMixin",
     "GreedGoldMixin",
     "LustBreedingMixin",
+    "PrideBannerMixin",
     "SlothSleepMixin",
     "WrathVillagerMixin"
   ],
