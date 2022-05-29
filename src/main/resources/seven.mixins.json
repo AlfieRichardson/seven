@@ -7,7 +7,9 @@
   ],
   "client": [
     "ArmorItemMixin",
-    "BreedingLustMixin"
+    "EnvyBellMixin",
+    "GluttonyCakeMixin",
+    "LustBreedingMixin"
   ],
   "injectors": {
     "defaultRequire": 1

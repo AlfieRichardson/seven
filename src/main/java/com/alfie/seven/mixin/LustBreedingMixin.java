@@ -12,11 +12,10 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin (AnimalEntity.class)
-public abstract class BreedingLustMixin {
+public abstract class LustBreedingMixin {
     @Inject(method = "breed(Lnet/minecraft/server/world/ServerWorld;Lnet/minecraft/entity/passive/AnimalEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V",
             at = @At(value = "TAIL", target = "Lnet/minecraft/entity/passive/AnimalEntity;breed(Lnet/minecraft/server/world/ServerWorld;Lnet/minecraft/entity/passive/AnimalEntity;)V"))
     private void breed(ServerWorld server, AnimalEntity other, CallbackInfo ci) {
-        System.out.println("Make lust gem here");
         ServerPlayerEntity p = other.getLovingPlayer();
         PlayerInventory pInv = p.getInventory();
         ItemStack emptyGem = new ItemStack(RegisterItems.EMPTY_GEMSTONE);
