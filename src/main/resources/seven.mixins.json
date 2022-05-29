@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.alfie.seven.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "ArmorItemMixin",
+    "BreedingLustMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
