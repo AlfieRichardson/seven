@@ -7,11 +7,13 @@
   ],
   "client": [
     "ArmorItemMixin",
+
     "EnvyBellMixin",
     "GluttonyCakeMixin",
     "GreedGoldMixin",
     "LustBreedingMixin",
-    "SlothSleepMixin"
+    "SlothSleepMixin",
+    "WrathVillagerMixin"
   ],
   "injectors": {
     "defaultRequire": 1
