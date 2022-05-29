@@ -1,7 +1,6 @@
 package com.alfie.seven.mixin;
 
 import com.alfie.seven.RegisterItems;
-import net.minecraft.block.Block;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.item.BannerItem;

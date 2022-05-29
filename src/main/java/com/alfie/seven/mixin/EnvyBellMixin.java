@@ -1,7 +1,6 @@
 package com.alfie.seven.mixin;
 
 import com.alfie.seven.RegisterItems;
-import net.minecraft.block.BellBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BellBlockEntity;
