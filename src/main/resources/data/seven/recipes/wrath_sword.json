@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "G",
+    "N",
+    "S"
+  ],
+  "key": {
+    "G": {
+      "item": "seven:wrath_gemstone"
+    },
+    "N": {
+      "item": "minecraft:netherite_sword"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "seven:wrath_sword",
+    "count": 1
+  }
+}

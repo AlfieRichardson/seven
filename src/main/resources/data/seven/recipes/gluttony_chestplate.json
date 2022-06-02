@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_chestplate"
+  },
+  "addition": {
+    "item": "seven:gluttony_gemstone"
+  },
+  "result": {
+    "item": "seven:gluttony_chestplate"
+  }
+}

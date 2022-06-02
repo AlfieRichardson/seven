@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GNI",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "G": {
+      "item": "seven:greed_gemstone"
+    },
+    "N": {
+      "item": "minecraft:netherite_pickaxe"
+    },
+    "I": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "seven:greed_pick",
+    "count": 1
+  }
+}

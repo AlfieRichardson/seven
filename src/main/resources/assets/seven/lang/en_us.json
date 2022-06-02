@@ -5,16 +5,16 @@
   "item.seven.pride_gemstone": "Pride Gemstone",
   "item.seven.gluttony_gemstone": "Gluttony Gemstone",
   "item.seven.lust_gemstone": "Lust Gemstone",
-  "item.seven.envy_gemstone": "Envy Gemstone",
+  "item.seven.sloth_gemstone": "Sloth Gemstone",
   "item.seven.greed_gemstone": "Greed Gemstone",
   "item.seven.wrath_gemstone": "Wrath Gemstone",
-  "item.seven.sloth_gemstone": "Sloth Gemstone",
+  "item.seven.envy_gemstone": "Envy Gemstone",
 
   "item.seven.pride_helmet": "Helm of Pride",
   "item.seven.gluttony_chestplate": "Cuirass of Gluttony",
   "item.seven.lust_leggings": "Tassets of Lust",
-  "item.seven.envy_boots": "Boots of Envy",
+  "item.seven.sloth_boots": "Greaves of Sloth",
   "item.seven.greed_pick": "Pick of Greed",
   "item.seven.wrath_sword": "Blade of Wrath",
-  "item.seven.sloth_shield": "Tower of Sloth"
+  "item.seven.envy_offhand": "Scepter of Envy"
 }

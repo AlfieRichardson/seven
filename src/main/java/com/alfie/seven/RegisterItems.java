@@ -12,24 +12,25 @@ public class RegisterItems {
     public static final Item EMPTY_GEMSTONE = new Item(new Item.Settings().group(Seven.SEVEN_GROUP));
 
     // SIN gems
-    public static final Item PRIDE_GEMSTONE = new Item(new Item.Settings().group(Seven.SEVEN_GROUP));
-    public static final Item GLUTTONY_GEMSTONE = new Item(new Item.Settings().group(Seven.SEVEN_GROUP));
-    public static final Item LUST_GEMSTONE = new Item(new Item.Settings().group(Seven.SEVEN_GROUP));
-    public static final Item ENVY_GEMSTONE = new Item(new Item.Settings().group(Seven.SEVEN_GROUP));
-    public static final Item GREED_GEMSTONE = new Item(new Item.Settings().group(Seven.SEVEN_GROUP));
-    public static final Item WRATH_GEMSTONE = new Item(new Item.Settings().group(Seven.SEVEN_GROUP));
-    public static final Item SLOTH_GEMSTONE = new Item(new Item.Settings().group(Seven.SEVEN_GROUP));
+    public static final Item PRIDE_GEMSTONE = new Item(new Item.Settings().group(Seven.SEVEN_GROUP).fireproof());
+    public static final Item GLUTTONY_GEMSTONE = new Item(new Item.Settings().group(Seven.SEVEN_GROUP).fireproof());
+    public static final Item LUST_GEMSTONE = new Item(new Item.Settings().group(Seven.SEVEN_GROUP).fireproof());
+    public static final Item SLOTH_GEMSTONE = new Item(new Item.Settings().group(Seven.SEVEN_GROUP).fireproof());
+    public static final Item GREED_GEMSTONE = new Item(new Item.Settings().group(Seven.SEVEN_GROUP).fireproof());
+    public static final Item WRATH_GEMSTONE = new Item(new Item.Settings().group(Seven.SEVEN_GROUP).fireproof());
+    public static final Item ENVY_GEMSTONE = new Item(new Item.Settings().group(Seven.SEVEN_GROUP).fireproof());
 
     // SIN armor
     public static final ArmorMaterial SIN_MATERIAL = new SinArmorMaterial();
-    public static final Item PRIDE_HELMET = new ArmorItem(SIN_MATERIAL, EquipmentSlot.HEAD, new Item.Settings().group(Seven.SEVEN_GROUP));
-    public static final Item GLUTTONY_CHESTPLATE = new ArmorItem(SIN_MATERIAL, EquipmentSlot.CHEST, new Item.Settings().group(Seven.SEVEN_GROUP));
-    public static final Item LUST_LEGGINGS = new ArmorItem(SIN_MATERIAL, EquipmentSlot.LEGS, new Item.Settings().group(Seven.SEVEN_GROUP));
-    public static final Item ENVY_BOOTS = new ArmorItem(SIN_MATERIAL, EquipmentSlot.FEET, new Item.Settings().group(Seven.SEVEN_GROUP));
+    public static final Item PRIDE_HELMET = new ArmorItem(SIN_MATERIAL, EquipmentSlot.HEAD, new Item.Settings().group(Seven.SEVEN_GROUP).fireproof());
+    public static final Item GLUTTONY_CHESTPLATE = new ArmorItem(SIN_MATERIAL, EquipmentSlot.CHEST, new Item.Settings().group(Seven.SEVEN_GROUP).fireproof());
+    public static final Item LUST_LEGGINGS = new ArmorItem(SIN_MATERIAL, EquipmentSlot.LEGS, new Item.Settings().group(Seven.SEVEN_GROUP).fireproof());
+    public static final Item SLOTH_BOOTS = new ArmorItem(SIN_MATERIAL, EquipmentSlot.FEET, new Item.Settings().group(Seven.SEVEN_GROUP).fireproof());
 
     // SIN tools
-    public static final ToolItem GREED_PICK = new GreedPickaxe(SinToolMaterial.INSTANCE, 1, -2.8f, new Item.Settings().group(Seven.SEVEN_GROUP));
-    public static final ToolItem WRATH_SWORD = new WrathSword(SinToolMaterial.INSTANCE, 3, -2.4f, new Item.Settings().group(Seven.SEVEN_GROUP));
+    public static final ToolItem GREED_PICK = new GreedPickaxe(SinToolMaterial.INSTANCE, 1, -2.8f, new Item.Settings().group(Seven.SEVEN_GROUP).fireproof());
+    public static final ToolItem WRATH_SWORD = new WrathSword(SinToolMaterial.INSTANCE, 3, -2.4f, new Item.Settings().group(Seven.SEVEN_GROUP).fireproof());
+    public static final Item ENVY_OFFHAND = new Item(new Item.Settings().group(Seven.SEVEN_GROUP).fireproof());
 
     // VIRTUE gems
     public static final Item GRATITUDE_GEMSTONE = new Item(new Item.Settings().group(Seven.SEVEN_GROUP));
@@ -45,20 +46,21 @@ public class RegisterItems {
         Registry.register(Registry.ITEM, new Identifier("seven", "pride_gemstone"), PRIDE_GEMSTONE);
         Registry.register(Registry.ITEM, new Identifier("seven", "gluttony_gemstone"), GLUTTONY_GEMSTONE);
         Registry.register(Registry.ITEM, new Identifier("seven", "lust_gemstone"), LUST_GEMSTONE);
-        Registry.register(Registry.ITEM, new Identifier("seven", "envy_gemstone"), ENVY_GEMSTONE);
+        Registry.register(Registry.ITEM, new Identifier("seven", "sloth_gemstone"), SLOTH_GEMSTONE);
         Registry.register(Registry.ITEM, new Identifier("seven", "greed_gemstone"), GREED_GEMSTONE);
         Registry.register(Registry.ITEM, new Identifier("seven", "wrath_gemstone"), WRATH_GEMSTONE);
-        Registry.register(Registry.ITEM, new Identifier("seven", "sloth_gemstone"), SLOTH_GEMSTONE);
+        Registry.register(Registry.ITEM, new Identifier("seven", "envy_gemstone"), ENVY_GEMSTONE);
 
         // SIN armor
         Registry.register(Registry.ITEM, new Identifier("seven", "pride_helmet"), PRIDE_HELMET);
         Registry.register(Registry.ITEM, new Identifier("seven", "gluttony_chestplate"), GLUTTONY_CHESTPLATE);
         Registry.register(Registry.ITEM, new Identifier("seven", "lust_leggings"), LUST_LEGGINGS);
-        Registry.register(Registry.ITEM, new Identifier("seven", "envy_boots"), ENVY_BOOTS);
+        Registry.register(Registry.ITEM, new Identifier("seven", "sloth_boots"), SLOTH_BOOTS);
 
         // SIN tools
         Registry.register(Registry.ITEM, new Identifier("seven", "greed_pick"), GREED_PICK);
         Registry.register(Registry.ITEM, new Identifier("seven", "wrath_sword"), WRATH_SWORD);
+        Registry.register(Registry.ITEM, new Identifier("seven", "envy_offhand"), ENVY_OFFHAND);
 
         // VIRTUE gems
         Registry.register(Registry.ITEM, new Identifier("seven", "gratitude_gemstone"), GRATITUDE_GEMSTONE);

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "G",
+    "L",
+    "L"
+  ],
+  "key": {
+    "G": {
+      "item": "seven:envy_gemstone"
+    },
+    "L": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "seven:envy_offhand",
+    "count": 1
+  }
+}
